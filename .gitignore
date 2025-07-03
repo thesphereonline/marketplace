@@ -1,0 +1,13 @@
+@"
+# Node
+node_modules/
+.next/
+.env
+
+# Go
+backend\bin\
+backend\*.log
+
+# OS
+.DS_Store
+"@ | Set-Content .gitignore
